@@ -90,7 +90,7 @@ that’s matter……\n""")
 
     print("Never Let A Astrologist Let Your Demotivated In Life, 'YOUR LIMITLESS!'")
     print("So, Your Driver Number Is: {}, ".format(driver_number))
-    print("And Your Conductor Number Is: {}".format(conductor_number))
+    print("And Your Conductor Number Is: {}\n".format(conductor_number))
 
     if (driver_number == conductor_number):
         checking_the_user_input(driver_number)
@@ -101,6 +101,7 @@ that’s matter……\n""")
 
 
 def driver_number_1():
+    print("Your Driver Number Describes Your Day To Day Life! ")
     print("Driver number '1' Sign = ('SUN')")
     print("Driver Number: 1 - ('BORN LEADERS !', This is how I will define driver number 1 in a word ;) )")
     print("\nSo, Folk Your Creative, You Have A Strong Determinative, Your A Researcher, Your Also A Good Administrator")
@@ -120,6 +121,7 @@ heat stroke, weak eyesight since young age, indigestions, heart and neuro relate
     print("By The Way Here's A Little Tip To You, Offering water to Sun every morning will be very benefical to you ;)\n")
 
 def driver_number_2():
+    print("Your Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 2 - ('Sentiments!', This is how I will define driver number 2 in a word ;) )")
     print("And Your Driver Number Is: 2 = ('Moon')")
     print("So, Folk Your Imaginative, Artistic, And Romantic Too ")
@@ -135,6 +137,7 @@ Also, for healthy mind, they should keep water in a container by
 the side of their bed at night and pour that water early in the morning in the plants.\n""")
 
 def driver_number_3():
+    print("Your Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 3 - ('Vision!', This Is How I will Define Driver Number 3 in a word ;))")
     print("Driver Number: 3 Sign= ('Jupiter')")
     print("So, Folk Your, High aspirational, Can Also Be A Leader, A Controller, Your A Faithful Person, Your Also A Good Teacher ")
@@ -149,6 +152,7 @@ you. In terms of health, people having driver number 3 are more prone to disease
 skin allergies, jaundice, arthritis and paralysis etc.\n""")
 
 def driver_number_4():
+    print("Your Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 4 - ('IDEAS'), This Is How I Will Define Driver Number 4 In A Word! ")
     print("Driver Number: 4 = ('Uranus')")
     print("So, Folk Your, A Debater, A Different Thought Person!")
@@ -168,6 +172,7 @@ overcome only through hard work and following spirituality.
 In terms of health, they may suffer from un-diagnosable diseases. Headaches, backaches and digestive 
 disorders are some of the common problem with number 4 people.\n""")
 def driver_number_5():
+    print("Your Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 5 Sign = ('Mercury')")
     print("So, Folk Your, Friendly Nature Person, But Also A high tempered Person!")
     print("Here's A Brief Explanation, ")
@@ -194,6 +199,7 @@ property and money related issues or disputes. Family life is normal, sometimes 
 father. They are frequent travellers and may travel around the world. Life is more or less satisfying.\n""")
 
 def driver_number_7():
+    print("Your Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 7 ('The Judge'), This Is How I Will Define Driver 7 In A Word!")
     print("Driver Number: 7 = Sign ('Saturn')")
     print("So, Folk You Have, the art of becoming a writer, artist. You Do Also take interest in outside world")
@@ -214,6 +220,7 @@ photography, pharmaceutical business, detective agency, travel air hostess, dair
 are appropriate rolls they can do.""")
 
 def driver_number_8():
+    print("Your Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 8 ('The Judge'), This Is How I Will Define Driver 8 In A Word!")
     print("Driver Number: 8 ('Saturn')")
     print("So, Folk You Have, the art of becoming a writer, artist. You Do Also take interest in outside world")
@@ -231,6 +238,7 @@ digestion, joint pains, intestinal trouble or stomach related ailments, are few 
 number 8 people.""")
 
 def driver_number_9():
+    print("Your Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 9 ('Force'), This Is How I Will Define Driver 9 In A Word!")
     print("Driver Number: 9 Sign = ('Mars') ")
     print("So, Folk You Have Anger, low patience, work on inner motivation")
@@ -268,6 +276,7 @@ def checking_the_user_input(driver_number):
         driver_number_9()
 def checking_the_user_input2(conductor_number):
     if (conductor_number == 1):
+        print("Your Conductor Number Describes Your Overall Life!")
         print("Conductor Number: {} Sign = ('Sun') ".format(conductor_number))
         print("Conductor Number: 1 - ('BORN LEADERS !', This is how I will define conductor number 1 in a word ;) )")
         print("So, Folk Your Creative, You Have A Strong Determinative, Your A Researcher, Your Also A Good Administrator")
@@ -288,6 +297,7 @@ def checking_the_user_input2(conductor_number):
             "By The Way Here's A Little Tip To You, Offering water to Sun every morning will be very benefical to you ;)")
 
     elif (conductor_number == 2):
+        print("Your Conductor Number Describes Your Overall Life!")
         print("Conductor Number: 2 - ('Sentiments!', This is how I will define conductor number 2 in a word ;) )")
         print("Conductor Number: 2 Sign = ('Moon')")
         print("So, Folk Your Imaginative, Artistic, And Romantic Too ")
@@ -304,6 +314,7 @@ the side of their bed at night and pour that water early in the morning in the p
 
 
     elif (conductor_number == 3):
+        print("Your Conductor Number Describes Your Overall Life!")
         print("Your Conductor Number Is: {}".format(conductor_number))
         print("Conductor Number: 3 - ('Vision!)', This Is How I will Define Conductor Number 3 in a word ;))")
         print("Conductor Number: 3 Sign = ('Jupiter')")
@@ -319,6 +330,7 @@ you. In terms of health, people having driver number 3 are more prone to disease
 skin allergies, jaundice, arthritis and paralysis etc.""")
 
     elif (conductor_number == 4):
+        print("Your Conductor Number Describes Your Overall Life!")
         print("Your Conductor Number Is: {}".format(conductor_number))
         print("Conductor Number: 4 - ('IDEAS', This Is How I Will Define Driver Number 4 In A Word! ")
         print("Conductor Number: 4 Sign = ('Uranus')")
@@ -339,6 +351,7 @@ In terms of health, they may suffer from un-diagnosable diseases. Headaches, bac
 disorders are some of the common problem with number 4 people.""")
 
     elif (conductor_number == 5):
+        print("Your Conductor Number Describes Your Overall Life!")
         print("Your Conductor Number Is: {}".format(conductor_number))
         print("Conductor Number: 5 - ('IDEAS', This Is How I Will Define Driver Number 4 In A Word! ")
         print("Conductor Number: 5 Sign = ('Uranus')")
@@ -409,6 +422,7 @@ number 8 people.""")
 
     elif (conductor_number == 9):
         print("Your Conductor Number Is: {}".format(conductor_number))
+        print("Your Conductor Number Describes Your Overall Life!")
         print("Conductor Number: 9 ('Force'), This Is How I Will Define Driver 9 In A Word!")
         print("Conductor Number: 9 Sign = ('MARS') ")
         print("So, Folk You Have Anger, low patience, work on inner motivation")
