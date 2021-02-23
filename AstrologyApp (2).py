@@ -5,12 +5,12 @@ os.system('COLOR a')
 def Date_Of_Birth_Collector():
     # ASKING USER WITH THE DATE OF BIRTH IN A PROPER WAY!
     try:
-        print("\nPlease Enter the Details As Per As Instructed By The Program!")
+        print("Please Enter the Details As Per As Instructed By The Program!")
         print("Provide Me With The Year You Were Born: Example: '2001' ")
         birth_year = int(input("Enter The Year You Were Born: "))
         os.system('cls')
         print("Provide Me With The Month You Were Born: Example: '12', which denotes December right ? "
-              "\nSo, what your birth day month, please enter the value in numeric ;) ")
+              "So, what your birth day month, please enter the value in numeric ;) ")
 
 
         month_of_birth = int(input("Enter The Month You were Born: "))
@@ -34,13 +34,13 @@ def Date_Of_Birth_Collector():
             Date_Of_Birth_Collector()
 
     except ValueError:
-        print("Value Error: You Must Have Entered Wrong Detail! "
-              "\nPlease Read The Instructions Carefully Before Entering The Data".format())
+        print("\nValue Error: You Must Have Entered Wrong Detail! "
+              "Please Read The Instructions Carefully Before Entering The Data".format())
         print("Hint We Only Accept Numeric Values, (Numbers)")
         Date_Of_Birth_Collector()
 
     finally:
-        print("Well, Done Thanks For Entering The Data, Analyzing Your Data "
+        print("\nWell, Done Thanks For Entering The Data, Analyzing Your Data "
         "\nPlease Wait..........")
 
         # THE VALUE FOR DRIVER NUMBER !
@@ -55,7 +55,7 @@ def Date_Of_Birth_Collector():
             conductor_number = conductor_number + int(str(conductor_number_string[x]))
         print("The Sum of the conductor Number: {}".format(conductor_number))
 
-        # Moudel to check whether the conductor number is greater then 1 ?
+        # Module to check whether the conductor number is greater then 1 ?
 
         if (len(str(conductor_number)) == 2):
             conductor_number = int(str(conductor_number)[0]) + int(str(conductor_number)[1])
@@ -101,10 +101,10 @@ that’s matter……\n""")
 
 
 def driver_number_1():
-    print("Your Driver Number Describes Your Day To Day Life! ")
+    print("\nYour Driver Number Describes Your Day To Day Life! ")
     print("Driver number '1' Sign = ('SUN')")
     print("Driver Number: 1 - ('BORN LEADERS !', This is how I will define driver number 1 in a word ;) )")
-    print("\nSo, Folk Your Creative, You Have A Strong Determinative, Your A Researcher, Your Also A Good Administrator")
+    print("So, Folk Your Creative, You Have A Strong Determinative, Your A Researcher, Your Also A Good Administrator")
     print("Here's a brief explanation, ")
     print("""Sun rises everyday and is considered as the source of life’s creation. 
 It comes at first place and hence is represented as number 1. As Sun is considered as lord of all planets 
@@ -121,11 +121,11 @@ heat stroke, weak eyesight since young age, indigestions, heart and neuro relate
     print("By The Way Here's A Little Tip To You, Offering water to Sun every morning will be very benefical to you ;)\n")
 
 def driver_number_2():
-    print("Your Driver Number Describes Your Day To Day Life! ")
-    print("Driver Number: 2 - ('Sentiments!', This is how I will define driver number 2 in a word ;) )")
+    print("\nYour Driver Number Describes Your Day To Day Life! ")
+    print("Driver Number: 2 - ('Sentiments!)', This is how I will define driver number 2 in a word ;) )")
     print("And Your Driver Number Is: 2 = ('Moon')")
     print("So, Folk Your Imaginative, Artistic, And Romantic Too ")
-    print("Here's A Breif Explanation, ")
+    print("Here's A Brief Explanation, ")
     print("""
 These people keep a very refined taste in art and beauty. 
 Since they have good analytical skills so they do well in field of law, orator, advisory, artist, painter, 
@@ -137,7 +137,7 @@ Also, for healthy mind, they should keep water in a container by
 the side of their bed at night and pour that water early in the morning in the plants.\n""")
 
 def driver_number_3():
-    print("Your Driver Number Describes Your Day To Day Life! ")
+    print("\nYour Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 3 - ('Vision!', This Is How I will Define Driver Number 3 in a word ;))")
     print("Driver Number: 3 Sign= ('Jupiter')")
     print("So, Folk Your, High aspirational, Can Also Be A Leader, A Controller, Your A Faithful Person, Your Also A Good Teacher ")
@@ -152,7 +152,7 @@ you. In terms of health, people having driver number 3 are more prone to disease
 skin allergies, jaundice, arthritis and paralysis etc.\n""")
 
 def driver_number_4():
-    print("Your Driver Number Describes Your Day To Day Life! ")
+    print("\nYour Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 4 - ('IDEAS'), This Is How I Will Define Driver Number 4 In A Word! ")
     print("Driver Number: 4 = ('Uranus')")
     print("So, Folk Your, A Debater, A Different Thought Person!")
@@ -168,11 +168,11 @@ They play leading role in a group or society but their arrogant and egoistic att
 friendly and always struggle in relationships. Scriptures, magic, research, religion and occult interest 
 them a lot. Because of influence of Uranus, their life is full of struggle and hardships, which can be 
 overcome only through hard work and following spirituality.
-
 In terms of health, they may suffer from un-diagnosable diseases. Headaches, backaches and digestive 
 disorders are some of the common problem with number 4 people.\n""")
+
 def driver_number_5():
-    print("Your Driver Number Describes Your Day To Day Life! ")
+    print("\nYour Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 5 Sign = ('Mercury')")
     print("So, Folk Your, Friendly Nature Person, But Also A high tempered Person!")
     print("Here's A Brief Explanation, ")
@@ -187,7 +187,7 @@ banking, budgeting, share trading, investors etc. They generally enjoy good heal
 to diseases like insomnia, weakness in legs and hands.\n""")
 
 def driver_number_6():
-    print("Driver Number: 6 = Sign ('Venus')")
+    print("\nDriver Number: 6 = Sign ('Venus')")
     print("So, Folk You Have The Power of attraction, Also the power to get love and respect, you also do love beautiful things")
     print("""
 This number possesses high degree of life force. Girls of this number have very attractive personality 
@@ -199,11 +199,11 @@ property and money related issues or disputes. Family life is normal, sometimes 
 father. They are frequent travellers and may travel around the world. Life is more or less satisfying.\n""")
 
 def driver_number_7():
-    print("Your Driver Number Describes Your Day To Day Life! ")
-    print("Driver Number: 7 ('The Judge'), This Is How I Will Define Driver 7 In A Word!")
-    print("Driver Number: 7 = Sign ('Saturn')")
+    print("\nYour Driver Number Describes Your Day To Day Life! ")
+    print("Driver Number: 7 ('Action'), This Is How I Will Define Driver 7 In A Word!")
+    print("Driver Number: 7 = Sign ('KETU')")
     print("So, Folk You Have, the art of becoming a writer, artist. You Do Also take interest in outside world")
-    print("Here's A Breif Explanation, ")
+    print("Here's A Brief Explanation, ")
     print("""
 According to Indian system The Lord of number 7 is ‘Ketu’.
 It is very difficult to understand these people because they have several hidden secrets. 
@@ -220,11 +220,11 @@ photography, pharmaceutical business, detective agency, travel air hostess, dair
 are appropriate rolls they can do.""")
 
 def driver_number_8():
-    print("Your Driver Number Describes Your Day To Day Life! ")
+    print("\nYour Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 8 ('The Judge'), This Is How I Will Define Driver 8 In A Word!")
     print("Driver Number: 8 ('Saturn')")
     print("So, Folk You Have, the art of becoming a writer, artist. You Do Also take interest in outside world")
-    print("Here's A Breif Explanation, ")
+    print("Here's A Brief Explanation, ")
     print("""
 This number is basically a karmic number of a person that means only hard work would bring success 
 to their lives. Success doesn’t come by chance for this number, they may face lot of hardships and 
@@ -238,10 +238,11 @@ digestion, joint pains, intestinal trouble or stomach related ailments, are few 
 number 8 people.""")
 
 def driver_number_9():
-    print("Your Driver Number Describes Your Day To Day Life! ")
+    print("\nYour Driver Number Describes Your Day To Day Life! ")
     print("Driver Number: 9 ('Force'), This Is How I Will Define Driver 9 In A Word!")
     print("Driver Number: 9 Sign = ('Mars') ")
     print("So, Folk You Have Anger, low patience, work on inner motivation")
+    print("Here's A Brief Explanation, ")
     print("""
 Number 9 is ruled by ‘Mars’, which represents power and service. The power or force required to convert a 
 plan into action, comes from Mars. These people are brave, courageous and commanding. They have high levels 
@@ -276,7 +277,7 @@ def checking_the_user_input(driver_number):
         driver_number_9()
 def checking_the_user_input2(conductor_number):
     if (conductor_number == 1):
-        print("Your Conductor Number Describes Your Overall Life!")
+        print("\nYour Conductor Number Describes Your Overall Life!")
         print("Conductor Number: {} Sign = ('Sun') ".format(conductor_number))
         print("Conductor Number: 1 - ('BORN LEADERS !', This is how I will define conductor number 1 in a word ;) )")
         print("So, Folk Your Creative, You Have A Strong Determinative, Your A Researcher, Your Also A Good Administrator")
@@ -297,11 +298,11 @@ def checking_the_user_input2(conductor_number):
             "By The Way Here's A Little Tip To You, Offering water to Sun every morning will be very benefical to you ;)")
 
     elif (conductor_number == 2):
-        print("Your Conductor Number Describes Your Overall Life!")
+        print("\nYour Conductor Number Describes Your Overall Life!")
         print("Conductor Number: 2 - ('Sentiments!', This is how I will define conductor number 2 in a word ;) )")
         print("Conductor Number: 2 Sign = ('Moon')")
         print("So, Folk Your Imaginative, Artistic, And Romantic Too ")
-        print("Here's A Breif Explanation, ")
+        print("Here's A Brief Explanation, ")
         print("""
 These people keep a very refined taste in art and beauty. 
 Since they have good analytical skills so they do well in field of law, orator, advisory, artist, painter, 
@@ -314,7 +315,7 @@ the side of their bed at night and pour that water early in the morning in the p
 
 
     elif (conductor_number == 3):
-        print("Your Conductor Number Describes Your Overall Life!")
+        print("\nYour Conductor Number Describes Your Overall Life!")
         print("Your Conductor Number Is: {}".format(conductor_number))
         print("Conductor Number: 3 - ('Vision!)', This Is How I will Define Conductor Number 3 in a word ;))")
         print("Conductor Number: 3 Sign = ('Jupiter')")
@@ -330,7 +331,7 @@ you. In terms of health, people having driver number 3 are more prone to disease
 skin allergies, jaundice, arthritis and paralysis etc.""")
 
     elif (conductor_number == 4):
-        print("Your Conductor Number Describes Your Overall Life!")
+        print("\nYour Conductor Number Describes Your Overall Life!")
         print("Your Conductor Number Is: {}".format(conductor_number))
         print("Conductor Number: 4 - ('IDEAS', This Is How I Will Define Driver Number 4 In A Word! ")
         print("Conductor Number: 4 Sign = ('Uranus')")
@@ -351,9 +352,8 @@ In terms of health, they may suffer from un-diagnosable diseases. Headaches, bac
 disorders are some of the common problem with number 4 people.""")
 
     elif (conductor_number == 5):
-        print("Your Conductor Number Describes Your Overall Life!")
+        print("\nYour Conductor Number Describes Your Overall Life!")
         print("Your Conductor Number Is: {}".format(conductor_number))
-        print("Conductor Number: 5 - ('IDEAS', This Is How I Will Define Driver Number 4 In A Word! ")
         print("Conductor Number: 5 Sign = ('Uranus')")
         print("So, Folk Your, Friendly Nature Person, But Also A high tempered Person!")
         print("Here's A Brief Explanation, ")
@@ -368,10 +368,10 @@ banking, budgeting, share trading, investors etc. They generally enjoy good heal
 to diseases like insomnia, weakness in legs and hands.""")
 
     elif (conductor_number == 6):
-        print("Your Conductor Number Describes Your Overall Life!")
-        print("Conductor Number: 6 - ('IDEAS'), This Is How I Will Define Conductor Number 6 In A Word!")
+        print("\nYour Conductor Number Describes Your Overall Life!")
         print("Conductor Number: 6 = Sign = ('Venus')")
         print("So, Folk You Have The Power of attraction, Also the power to get love and respect, you also do love beautiful things")
+        print("Here's A Brief Explanation, ")
         print("""
 This number possesses high degree of life force. Girls of this number have very attractive personality 
 and fond of fashionable clothes. These people have great interest in artistic things, music, dance, 
@@ -382,11 +382,11 @@ property and money related issues or disputes. Family life is normal, sometimes 
 father. They are frequent travellers and may travel around the world. Life is more or less satisfying.""")
 
     elif (conductor_number == 7):
-        print("Your Conductor Number Describes Your Overall Life!")
+        print("\nYour Conductor Number Describes Your Overall Life!")
         print("Conductor Number: 7 ('Action'), This Is How I Will Define Driver 7 In A Word!")
         print("Conductor Number: 7 Sign = ('KETU')")
         print("So, Folk You Have, the art of becoming a writer, artist. You Do Also take interest in outside world")
-        print("Here's A Breif Explanation, ")
+        print("Here's A Brief Explanation, ")
         print("""
 According to Indian system The Lord of number 7 is ‘Ketu’.
 It is very difficult to understand these people because they have several hidden secrets. 
@@ -403,11 +403,11 @@ photography, pharmaceutical business, detective agency, travel air hostess, dair
 are appropriate rolls they can do.""")
 
     elif (conductor_number == 8):
-        print("Your Conductor Number Describes Your Overall Life!")
+        print("\nYour Conductor Number Describes Your Overall Life!")
         print("Conductor Number: 8 ('The Judge'), This Is How I Will Define Driver 8 In A Word!")
         print("Conductor Number: 8 Sign = ('Saturn')")
         print("So, Folk You Have, the art of becoming a writer, artist. You Do Also take interest in outside world")
-        print("Here's A Breif Explanation, ")
+        print("Here's A Brief Explanation, ")
         print("""
 This number is basically a karmic number of a person that means only hard work would bring success 
 to their lives. Success doesn’t come by chance for this number, they may face lot of hardships and 
@@ -421,11 +421,12 @@ digestion, joint pains, intestinal trouble or stomach related ailments, are few 
 number 8 people.""")
 
     elif (conductor_number == 9):
-        print("Your Conductor Number Is: {}".format(conductor_number))
+        print("\nYour Conductor Number Is: {}".format(conductor_number))
         print("Your Conductor Number Describes Your Overall Life!")
         print("Conductor Number: 9 ('Force'), This Is How I Will Define Driver 9 In A Word!")
         print("Conductor Number: 9 Sign = ('MARS') ")
         print("So, Folk You Have Anger, low patience, work on inner motivation")
+        print("Here's A Brief Explanation, ")
         print("""
 Number 9 is ruled by ‘Mars’, which represents power and service. The power or force required to convert a 
 plan into action, comes from Mars. These people are brave, courageous and commanding. They have high levels 
@@ -435,7 +436,6 @@ This is the most aggressive number among all and if impacted negatively by numbe
 physical means to get their work done. This number rules over blood, bone marrow, digestive system, 
 headaches, piles or urinary problems. They should regularly go for morning walks and keep away from items 
 related to fireworks.""")
-
 
 #Calling The Required Method!
 Date_Of_Birth_Collector()
